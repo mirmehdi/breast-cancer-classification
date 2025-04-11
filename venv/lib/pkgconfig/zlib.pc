@@ -1,0 +1,13 @@
+prefix=/Users/mehdiseyedebrahimi/Documents/Projecrts_selb/ML_realworldprojects/Breastcancer/venv
+exec_prefix=/Users/mehdiseyedebrahimi/Documents/Projecrts_selb/ML_realworldprojects/Breastcancer/venv
+libdir=/Users/mehdiseyedebrahimi/Documents/Projecrts_selb/ML_realworldprojects/Breastcancer/venv/lib
+sharedlibdir=/Users/mehdiseyedebrahimi/Documents/Projecrts_selb/ML_realworldprojects/Breastcancer/venv/lib
+includedir=/Users/mehdiseyedebrahimi/Documents/Projecrts_selb/ML_realworldprojects/Breastcancer/venv/include
+
+Name: zlib
+Description: zlib compression library
+Version: 1.2.13
+
+Requires:
+Libs: -L${libdir} -L${sharedlibdir} -lz
+Cflags: -I${includedir}
